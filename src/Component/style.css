@@ -1,0 +1,84 @@
+button {
+    color: white;
+    font-weight: 800;
+    float: right;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(243 42 0);
+    padding: 12px 10px;
+}
+
+button:hover {
+    background-color: rgb(44, 39, 10);
+}
+
+.col-1 {
+    height: 100%;
+    float: left;
+    width: 90%;
+}
+
+.col-2 {
+    height: 100%;
+    float: left;
+    width: 10%;
+}
+
+.row {
+    height: 50px;
+    padding: 20px 50px 0px 30px;
+}
+
+.compo1 {
+    background-color: rgb(200 247 138);
+    height: 82px;
+}
+
+.compo2 {
+    margin-left: 120px;
+}
+
+.profile_photo {
+    border-radius: 20%;
+}
+
+
+.card-box {
+    float: left;
+    width: 33%;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.clients {
+    border: 2px solid rgb(59 189 45);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 26%);
+    max-width: 220px;
+    margin: 50px 23px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255 255 255);
+}
+
+.clients:hover {
+    transition: 500ms;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.mail {
+    color: rgb(105 109 228);
+    font-size: 15px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
